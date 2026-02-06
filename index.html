@@ -107,10 +107,7 @@
                 <a href="#section-contact" class="cta-button py-2 px-6 text-xs bg-transparent text-white border-white/20 hover:bg-white hover:text-black">Get Started</a>
             </div>
         </nav>
-        <div class="flex justify-between items-end w-full">
-            <div class="status-pill"><span id="status-dot" class="status-dot"></span><span id="status-text">SYSTEM_READY</span></div>
-            <div class="text-right font-mono text-xs text-gray-500">TRANSFORMATION: <span id="entropy-display">0%</span></div>
-        </div>
+        <div></div>
     </div>
 
     <div class="progress-container"><div class="progress-bar" id="progress-bar"></div></div>
@@ -123,7 +120,7 @@
                 Legacy to Intelligence
             </h1>
             <p class="hero-subtitle">
-                You have decades of data, institutional knowledge, and proven processes. <strong>We turn that into AI-powered competitive advantage</strong>—before your competitors do.
+                Your competitors are investing millions in AI. You have something they don't: <strong>20 years of data, proven processes, and institutional knowledge.</strong> We turn that into measurable competitive advantage.
             </p>
             <div class="mt-10">
                 <a href="#section-contact" class="cta-button">Book Strategy Session</a>
@@ -136,13 +133,13 @@
     <section class="scroll-section" id="section-chaos">
         <div class="content-container-left">
             <div class="content-card">
-                <span class="marker-text" style="color: #ff6b6b;">The Pressure</span>
-                <h2 class="text-3xl font-bold mb-4">Your Competitors Are Moving</h2>
+                <span class="marker-text" style="color: #ff6b6b;">The Reality</span>
+                <h2 class="text-3xl font-bold mb-4">The Window Is Closing</h2>
                 <p class="text-gray-300 mb-4 leading-relaxed">
-                    Every week, another company in your industry announces an AI initiative. Meanwhile, <strong class="text-white">your institutional knowledge is walking out the door</strong> as experienced employees retire.
+                    Your competitors are deploying AI. Your experienced employees are retiring—taking decades of knowledge with them. <strong class="text-white">The data sitting in your legacy systems is either an asset or a liability.</strong>
                 </p>
                 <p class="text-gray-400 text-sm leading-relaxed mb-6">
-                    You have something they don't: 20 years of data, proven processes, and hard-won expertise. The question is whether you'll leverage it—or let it become obsolete.
+                    The companies that act now will compound their advantage. The ones that wait will spend years catching up.
                 </p>
                 <div class="space-y-3">
                     <div class="flex items-center gap-3 text-sm text-gray-400">
@@ -281,24 +278,24 @@
                 <h2 class="text-3xl font-bold mb-6">What to Expect</h2>
                 
                 <div class="faq-item">
-                    <div class="faq-q">We're not a tech company. Is this really for us?</div>
-                    <div class="faq-a">That's exactly why it's for you. Tech companies are building their own AI. You need a partner who can bring AI to your industry expertise. We handle the technology; you bring the business knowledge.</div>
+                    <div class="faq-q">What makes MASE different from other AI consultants?</div>
+                    <div class="faq-a">We ship. Most consultants deliver slide decks and roadmaps. We deliver working AI systems in production. Our focus is established companies with real data—not startups chasing hype.</div>
                 </div>
                 <div class="faq-item">
                     <div class="faq-q">Our data is a mess. Can you still help?</div>
-                    <div class="faq-a">Most of our clients say that. Messy data is normal. We've built systems on top of decades-old spreadsheets, paper records, and legacy databases. The data doesn't need to be perfect—it needs to be yours.</div>
+                    <div class="faq-a">That's normal. We've built AI on top of 30-year-old spreadsheets, paper records, and legacy ERP systems. The data doesn't need to be perfect—it needs to be yours.</div>
                 </div>
                 <div class="faq-item">
-                    <div class="faq-q">How long until we see results?</div>
-                    <div class="faq-a">We scope for quick wins. Most clients see measurable impact within 30-60 days. We start with one high-value use case, prove ROI, then expand.</div>
+                    <div class="faq-q">How fast can we see results?</div>
+                    <div class="faq-a">30-60 days for initial impact. We start with one high-value use case, prove ROI, then expand. No 18-month roadmaps before anything works.</div>
                 </div>
                 <div class="faq-item">
                     <div class="faq-q">What does this cost?</div>
-                    <div class="faq-a">Strategy sessions start at $500. Implementation projects range from $15K-$50K+ depending on scope. We'll give you a clear quote after understanding your situation.</div>
+                    <div class="faq-a">Strategy sessions: $500. Implementation: $15K-$50K+ depending on scope. We give you a clear quote after understanding your situation—no surprise invoices.</div>
                 </div>
                 <div class="faq-item" style="border-bottom: none;">
-                    <div class="faq-q">Will this replace our employees?</div>
-                    <div class="faq-a">No—it makes them dramatically more effective. AI handles the repetitive work so your people can focus on judgment, relationships, and the things humans do best.</div>
+                    <div class="faq-q">Will AI replace our employees?</div>
+                    <div class="faq-a">No. It makes them dramatically more effective. AI handles the repetitive work so your people focus on judgment, relationships, and expertise. Most clients take on more work, not less staff.</div>
                 </div>
             </div>
         </div>
@@ -573,20 +570,7 @@
 
         gsap.to("#progress-bar", { height: "100%", ease: "none", scrollTrigger: { trigger: "body", scrub: 0 } });
 
-        ScrollTrigger.create({
-            trigger: "#section-chaos", start: "top center",
-            onEnter: () => { document.getElementById('status-dot').className="status-dot alert"; document.getElementById('status-text').innerText="ANALYZING"; document.getElementById('status-text').style.color="#ff6b6b"; },
-            onLeaveBack: () => { document.getElementById('status-dot').className="status-dot"; document.getElementById('status-text').innerText="SYSTEM_READY"; document.getElementById('status-text').style.color="white"; }
-        });
-        ScrollTrigger.create({
-            trigger: "#section-cases", start: "top center",
-            onEnter: () => { document.getElementById('status-dot').className="status-dot active"; document.getElementById('status-text').innerText="TRANSFORMING"; document.getElementById('status-text').style.color="#00f3ff"; },
-            onLeaveBack: () => { document.getElementById('status-dot').className="status-dot alert"; document.getElementById('status-text').innerText="PROCESSING"; }
-        });
-        ScrollTrigger.create({
-            trigger: "#section-contact", start: "top center",
-            onEnter: () => { document.getElementById('status-text').innerText="READY"; }
-        });
+        // Scroll animations only
 
         const tempColor = new THREE.Color();
         const tempPos = new THREE.Vector3();
@@ -667,7 +651,7 @@
             cubes.instanceMatrix.needsUpdate = true;
             cubes.instanceColor.needsUpdate = true;
 
-            document.getElementById('entropy-display').innerText = Math.round(state.chaosOrderMix * 100) + "%";
+            // Animation progress tracked internally
 
             renderer.render(scene, camera);
         }
