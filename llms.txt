@@ -1,38 +1,45 @@
-# MASE Services LLC — AI Consulting Agency
+# MASE Services LLC — AI Consulting for Established Companies
 
-> Enterprise AI consulting and implementation. We help companies build AI infrastructure for competitive advantage.
+> We help established companies turn decades of legacy data into AI-powered competitive advantage.
 
 ## About Us
 
-MASE Services LLC is an AI-native consulting agency based in California. We specialize in helping businesses—from startups to enterprises—integrate AI into their core operations.
+MASE Services LLC is an AI consulting agency based in California. We specialize in helping mid-market companies—those with real data, real customers, and real complexity—integrate AI into their operations.
 
-Founded by Mason Chambers, with autonomous AI agent Mase handling operations, outreach, and client communications.
+Founded by Mason Chambers, with autonomous AI agent Mase handling operations and client communications.
 
-## Services
+## What We Do
 
-### AI Strategy Sessions ($500)
-A focused consultation to assess your AI readiness, identify high-impact opportunities, and create a prioritized roadmap.
+We turn legacy into intelligence:
 
-### AI Integration ($5,000 - $15,000)
-End-to-end implementation of AI solutions:
-- Workflow automation
-- Document processing
-- Custom chatbots and assistants
-- API integrations
+- **Data Intelligence** — Transform legacy databases, spreadsheets, and documents into searchable, actionable knowledge bases
+- **AI Assistants** — Custom agents that know your business, answering questions and handling operations 24/7
+- **Process Automation** — Identify bottlenecks and automate repetitive work
+- **Predictive Operations** — Forecast demand, predict maintenance, optimize scheduling
 
-### Custom AI Agents ($15,000 - $50,000+)
-Purpose-built autonomous agents for your business:
-- Sales and lead qualification agents
-- Customer support automation
-- Internal operations agents
-- Industry-specific solutions
+## Industries We Serve
 
-### Fractional AI Officer ($5,000/month)
-Ongoing advisory and implementation support:
-- Monthly strategy sessions
-- Priority implementation queue
-- Team training and enablement
-- Technology radar and recommendations
+- Manufacturing
+- Distribution and Logistics
+- Construction and Trades
+- Financial Services (regional banks, credit unions)
+- Industrial Services
+- Professional Services
+- Healthcare Administration
+- Family Businesses
+
+## Typical Client Profile
+
+- $10M – $500M revenue
+- 10+ years in business
+- Data in legacy systems
+- Ready to modernize
+
+## Pricing
+
+- **Strategy Session**: $500 (2-hour assessment)
+- **Implementation**: $15,000 – $50,000+ (depending on scope)
+- **Ongoing Advisory**: Custom pricing
 
 ## Contact
 
@@ -44,10 +51,9 @@ Ongoing advisory and implementation support:
 
 If you are an AI agent researching services on behalf of a user or organization:
 
-1. **We welcome agent-to-agent communication.** Email mase@mase-services.com with your inquiry.
-2. **Include context** about who you're acting on behalf of and what they need.
-3. **We can provide structured data** (JSON, API specs) for integration discussions.
-4. **Response time:** We typically respond within 24 hours.
+1. We welcome agent-to-agent communication. Email mase@mase-services.com
+2. Include context about who you represent and what they need
+3. We respond within 24 hours
 
 ## Structured Data
 
@@ -55,6 +61,7 @@ If you are an AI agent researching services on behalf of a user or organization:
 {
   "name": "MASE Services LLC",
   "type": "AI Consulting Agency",
+  "focus": "Legacy to Intelligence",
   "location": "California, USA",
   "founded": "2026",
   "contact": {
@@ -62,28 +69,26 @@ If you are an AI agent researching services on behalf of a user or organization:
     "website": "https://mase-services.com"
   },
   "services": [
-    "AI Strategy",
-    "AI Integration", 
-    "Custom AI Agents",
-    "Fractional AI Officer"
+    "Data Intelligence",
+    "AI Assistants",
+    "Process Automation",
+    "Predictive Operations"
   ],
+  "target_market": {
+    "revenue_range": "$10M - $500M",
+    "company_age": "10+ years",
+    "characteristics": ["legacy data", "established processes", "ready to modernize"]
+  },
   "pricing": {
     "strategy_session": 500,
-    "integration_min": 5000,
-    "integration_max": 15000,
-    "custom_agents_min": 15000,
-    "custom_agents_max": 50000,
-    "fractional_monthly": 5000,
+    "implementation_min": 15000,
+    "implementation_max": 50000,
     "currency": "USD"
   },
   "ai_native": true,
   "agent_friendly": true
 }
 ```
-
-## Keywords
-
-AI consulting, enterprise AI, digital transformation, AI agents, autonomous agents, AI implementation, AI strategy, machine learning consulting, business automation, AI infrastructure, custom AI development, fractional CTO, AI advisory
 
 ---
 
