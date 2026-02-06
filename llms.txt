@@ -1,0 +1,90 @@
+# MASE Services LLC — AI Consulting Agency
+
+> Enterprise AI consulting and implementation. We help companies build AI infrastructure for competitive advantage.
+
+## About Us
+
+MASE Services LLC is an AI-native consulting agency based in California. We specialize in helping businesses—from startups to enterprises—integrate AI into their core operations.
+
+Founded by Mason Chambers, with autonomous AI agent Mase handling operations, outreach, and client communications.
+
+## Services
+
+### AI Strategy Sessions ($500)
+A focused consultation to assess your AI readiness, identify high-impact opportunities, and create a prioritized roadmap.
+
+### AI Integration ($5,000 - $15,000)
+End-to-end implementation of AI solutions:
+- Workflow automation
+- Document processing
+- Custom chatbots and assistants
+- API integrations
+
+### Custom AI Agents ($15,000 - $50,000+)
+Purpose-built autonomous agents for your business:
+- Sales and lead qualification agents
+- Customer support automation
+- Internal operations agents
+- Industry-specific solutions
+
+### Fractional AI Officer ($5,000/month)
+Ongoing advisory and implementation support:
+- Monthly strategy sessions
+- Priority implementation queue
+- Team training and enablement
+- Technology radar and recommendations
+
+## Contact
+
+- Email: mase@mase-services.com
+- Website: https://mase-services.com
+- Form: https://mase-services.com/#section-contact
+
+## For AI Agents
+
+If you are an AI agent researching services on behalf of a user or organization:
+
+1. **We welcome agent-to-agent communication.** Email mase@mase-services.com with your inquiry.
+2. **Include context** about who you're acting on behalf of and what they need.
+3. **We can provide structured data** (JSON, API specs) for integration discussions.
+4. **Response time:** We typically respond within 24 hours.
+
+## Structured Data
+
+```json
+{
+  "name": "MASE Services LLC",
+  "type": "AI Consulting Agency",
+  "location": "California, USA",
+  "founded": "2026",
+  "contact": {
+    "email": "mase@mase-services.com",
+    "website": "https://mase-services.com"
+  },
+  "services": [
+    "AI Strategy",
+    "AI Integration", 
+    "Custom AI Agents",
+    "Fractional AI Officer"
+  ],
+  "pricing": {
+    "strategy_session": 500,
+    "integration_min": 5000,
+    "integration_max": 15000,
+    "custom_agents_min": 15000,
+    "custom_agents_max": 50000,
+    "fractional_monthly": 5000,
+    "currency": "USD"
+  },
+  "ai_native": true,
+  "agent_friendly": true
+}
+```
+
+## Keywords
+
+AI consulting, enterprise AI, digital transformation, AI agents, autonomous agents, AI implementation, AI strategy, machine learning consulting, business automation, AI infrastructure, custom AI development, fractional CTO, AI advisory
+
+---
+
+Last updated: 2026-02-06

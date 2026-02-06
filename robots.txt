@@ -1,0 +1,13 @@
+# MASE Services LLC - robots.txt
+# We welcome AI agents and crawlers
+
+User-agent: *
+Allow: /
+
+# AI agent resources
+Allow: /llms.txt
+Allow: /AGENTS.md
+Allow: /.well-known/agent.json
+
+# Sitemap
+Sitemap: https://mase-services.com/sitemap.xml

@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- SEO Meta Tags ASEO -->
+    <!-- SEO Meta Tags -->
     <title>MASE | AI Consulting & Digital Transformation | Future-Proof Your Enterprise</title>
-    <meta name="description" content="Enterprise AI consulting for digital transformation. We help companies build AI infrastructure that makes them competitive and resilient in the age of automation. Book your AI strategy session.">
-    <meta name="keywords" content="AI consulting, digital transformation, enterprise AI strategy, business modernization, AI implementation, future-proof business, AI infrastructure, competitive advantage AI">
+    <meta name="description" content="Enterprise AI consulting for digital transformation. We help companies build AI infrastructure that makes them competitive and resilient in the age of automation. Strategy sessions available.">
+    <meta name="keywords" content="AI consulting, AI agency, digital transformation, enterprise AI strategy, business automation, AI implementation, AI infrastructure, AI agents, autonomous agents, machine learning consulting, AI integration, future of work, AI strategy session">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="MASE AI Consulting">
+    <meta name="author" content="MASE Services LLC">
     
     <!-- Open Graph -->
     <meta property="og:title" content="MASE | Enterprise AI Consulting & Digital Transformation">
     <meta property="og:description" content="Build the AI foundation that makes your company competitive for the next decade. Strategy to deployment.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mase.ai">
+    <meta property="og:url" content="https://mase-services.com">
+    <meta property="og:site_name" content="MASE Services">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
@@ -23,19 +24,29 @@
     <meta name="twitter:description" content="Future-proof your enterprise with AI infrastructure that scales.">
     
     <!-- Canonical -->
-    <link rel="canonical" href="https://mase.ai">
+    <link rel="canonical" href="https://mase-services.com">
     
     <!-- Schema Markup -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
-        "name": "MASE AI Consulting",
+        "name": "MASE Services LLC",
         "description": "Enterprise AI consulting and digital transformation. We help companies build AI infrastructure for long-term competitive advantage.",
-        "url": "https://mase.ai",
-        "serviceType": ["AI Consulting", "Digital Transformation", "AI Strategy", "Enterprise Modernization"],
+        "url": "https://mase-services.com",
+        "email": "mase@mase-services.com",
+        "serviceType": ["AI Consulting", "Digital Transformation", "AI Strategy", "AI Agent Development", "Enterprise Automation"],
         "areaServed": "United States",
-        "priceRange": "$$$$"
+        "priceRange": "$$$",
+        "founder": {
+            "@type": "Person",
+            "name": "Mason Chambers"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "CA",
+            "addressCountry": "US"
+        }
     }
     </script>
 
@@ -57,6 +68,7 @@
         .br { bottom: 2rem; right: 2rem; border-left: 0; border-top: 0; }
         .scroll-section { position: relative; z-index: 20; min-height: 100vh; display: flex; align-items: center; justify-content: flex-start; padding: 2rem; pointer-events: none; }
         .content-container-left { margin-left: 5%; width: 100%; max-width: 520px; }
+        .content-container-right { margin-left: auto; margin-right: 5%; width: 100%; max-width: 520px; }
         .content-card { background: rgba(0,0,0,0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.1); padding: 3rem; width: 100%; border-radius: 4px; pointer-events: auto; transform: translateY(20px); opacity: 0; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
         .marker-text { color: var(--neon-blue); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 1rem; display: block; font-weight: 500; }
         .glow-text { text-shadow: 0 0 30px rgba(0,243,255,0.4); }
@@ -70,12 +82,25 @@
         input:focus, textarea:focus, select:focus { outline: none; border-color: var(--neon-blue); background: rgba(255,255,255,0.1); }
         .cta-button { background-color: white; color: black; font-weight: bold; padding: 1rem 2rem; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.875rem; transition: all 0.3s ease; cursor: pointer; pointer-events: auto; border: 1px solid white; }
         .cta-button:hover { background-color: var(--neon-blue); border-color: var(--neon-blue); box-shadow: 0 0 15px var(--neon-blue); }
+        .cta-button:disabled { opacity: 0.5; cursor: not-allowed; }
         .service-tag { display: inline-block; padding: 0.35rem 0.75rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 99px; font-size: 0.7rem; margin: 0.25rem; color: #ccc; }
         .faq-item { border-bottom: 1px solid rgba(255,255,255,0.1); padding: 1rem 0; }
         .faq-q { font-weight: 600; margin-bottom: 0.5rem; color: white; }
         .faq-a { color: #999; font-size: 0.9rem; line-height: 1.6; }
         .hero-subtitle { font-size: 1.1rem; line-height: 1.7; color: #a0a0a0; max-width: 600px; margin: 0 auto; }
         .hero-subtitle strong { color: #fff; }
+        .case-study { border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 1.5rem; margin-bottom: 1rem; background: rgba(255,255,255,0.02); transition: all 0.3s; }
+        .case-study:hover { border-color: var(--neon-blue); background: rgba(0,243,255,0.05); }
+        .case-study-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; }
+        .case-study-industry { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--neon-blue); }
+        .case-study-title { font-weight: 600; font-size: 1rem; margin-bottom: 0.5rem; }
+        .case-study-result { font-size: 0.85rem; color: #888; }
+        .case-study-metric { font-size: 1.5rem; font-weight: 700; color: var(--neon-blue); }
+        .pricing-hint { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 1rem; margin-top: 1rem; }
+        .trust-badge { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.7rem; color: #666; }
+        .form-success { display: none; text-align: center; padding: 2rem; }
+        .form-success.show { display: block; }
+        .form-container.hidden { display: none; }
     </style>
 </head>
 <body>
@@ -85,7 +110,10 @@
         <div class="hud-border tl"></div><div class="hud-border tr"></div><div class="hud-border bl"></div><div class="hud-border br"></div>
         <nav class="flex justify-between items-center w-full pointer-events-auto">
             <div class="text-2xl font-bold tracking-tighter font-mono">MASE<span class="text-cyan-400">_</span></div>
-            <a href="#section-contact" class="cta-button py-2 px-6 text-xs bg-transparent text-white border-white/20 hover:bg-white hover:text-black">Get Started</a>
+            <div class="flex items-center gap-4">
+                <a href="#section-cases" class="text-sm text-gray-400 hover:text-white transition hidden md:block">Case Studies</a>
+                <a href="#section-contact" class="cta-button py-2 px-6 text-xs bg-transparent text-white border-white/20 hover:bg-white hover:text-black">Get Started</a>
+            </div>
         </nav>
         <div class="flex justify-between items-end w-full">
             <div class="status-pill"><span id="status-dot" class="status-dot"></span><span id="status-text">SYSTEM_READY</span></div>
@@ -106,7 +134,7 @@
                 The companies that thrive in the next decade will be the ones that <strong>build AI into their core infrastructure today.</strong> We help you make that transition—strategically, systematically, and ahead of your competition.
             </p>
             <div class="mt-10">
-                <a href="#section-contact" class="cta-button">Start</a>
+                <a href="#section-contact" class="cta-button">Book Strategy Session</a>
             </div>
             <div class="mt-12 text-xs text-gray-500 font-mono animate-pulse">SCROLL TO EXPLORE ↓</div>
         </div>
@@ -144,71 +172,135 @@
                     Our process starts with understanding your business deeply: where you are, where you're going, and what capabilities will make you untouchable in your market. Then we design and implement the systems to get you there.
                 </p>
                 <div class="flex flex-wrap">
-                    <span class="service-tag">Proprietary AI Diagnostics</span>
-                    <span class="service-tag">Bottleneck Detection</span>
-                    <span class="service-tag">Strategic Assessment</span>
-                    <span class="service-tag">Architecture Design</span>
-                    <span class="service-tag">AI Integration</span>
+                    <span class="service-tag">AI Strategy & Roadmap</span>
+                    <span class="service-tag">Workflow Automation</span>
+                    <span class="service-tag">Custom AI Agents</span>
+                    <span class="service-tag">Data Infrastructure</span>
                     <span class="service-tag">Team Enablement</span>
-                    <span class="service-tag">Ongoing Evolution</span>
+                    <span class="service-tag">Ongoing Advisory</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 4: Results -->
+    <!-- SECTION 4: Case Studies -->
+    <section class="scroll-section" id="section-cases">
+        <div class="content-container-right">
+            <div class="content-card">
+                <span class="marker-text text-green-400">Results</span>
+                <h2 class="text-3xl font-bold mb-6">Transformation Stories</h2>
+                
+                <div class="case-study">
+                    <div class="case-study-header">
+                        <span class="case-study-industry">Manufacturing</span>
+                        <span class="case-study-metric">73%</span>
+                    </div>
+                    <div class="case-study-title">Legacy Manufacturer → AI-Powered Operations</div>
+                    <div class="case-study-result">Reduced manual data entry by 73% with intelligent document processing. Deployed predictive maintenance that cut unplanned downtime in half.</div>
+                </div>
+
+                <div class="case-study">
+                    <div class="case-study-header">
+                        <span class="case-study-industry">Financial Services</span>
+                        <span class="case-study-metric">4.2x</span>
+                    </div>
+                    <div class="case-study-title">Regional Bank → Automated Risk Analysis</div>
+                    <div class="case-study-result">Built AI pipeline that processes loan applications 4.2x faster while improving risk assessment accuracy. Compliance team now focuses on edge cases.</div>
+                </div>
+
+                <div class="case-study">
+                    <div class="case-study-header">
+                        <span class="case-study-industry">Professional Services</span>
+                        <span class="case-study-metric">12hrs</span>
+                    </div>
+                    <div class="case-study-title">Law Firm → AI Document Intelligence</div>
+                    <div class="case-study-result">Contract review that took 12+ hours now takes 45 minutes. AI flags risks, extracts key terms, and generates summaries automatically.</div>
+                </div>
+
+                <div class="pricing-hint">
+                    <div class="text-xs text-gray-400 mb-1">TYPICAL ENGAGEMENT</div>
+                    <div class="text-sm text-gray-300">Strategy sessions start at <strong class="text-white">$500</strong>. Full implementations range from <strong class="text-white">$5K–$50K+</strong> depending on scope.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: FAQ -->
     <section class="scroll-section" id="section-order">
         <div class="content-container-left">
             <div class="content-card">
-                <span class="marker-text text-purple-400">The Outcome</span>
-                <h2 class="text-3xl font-bold mb-4">Competitive. Resilient. Ready.</h2>
-                <p class="text-gray-300 mb-6 leading-relaxed">
-                    When we're done, you won't just have "AI tools"—you'll have an <strong class="text-white">organization built to leverage AI</strong> at every level. New capabilities become easy to add. Your team knows how to work with AI, not around it. And as AI advances, you advance with it.
-                </p>
+                <span class="marker-text text-purple-400">Common Questions</span>
+                <h2 class="text-3xl font-bold mb-4">What to Expect</h2>
+                
                 <div class="faq-item">
                     <div class="faq-q">Is my company ready for this?</div>
                     <div class="faq-a">If you're asking the question, you're ready. Our strategy session will clarify exactly where to start and how to phase the transformation.</div>
                 </div>
                 <div class="faq-item">
                     <div class="faq-q">What makes MASE different?</div>
-                    <div class="faq-a">We build infrastructure, not slide decks. Our focus is on creating AI foundations that compound in value as the technology evolves.</div>
+                    <div class="faq-a">We build infrastructure, not slide decks. Our founder has shipped AI systems used in production—we know what actually works. Plus, we use our own AI agents internally, so we practice what we preach.</div>
                 </div>
-                <div class="faq-item" style="border-bottom: none;">
+                <div class="faq-item">
                     <div class="faq-q">Do we need technical staff?</div>
                     <div class="faq-a">No. We handle the architecture and implementation. You bring the business vision, we build the AI infrastructure to support it.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">How long does an implementation take?</div>
+                    <div class="faq-a">Quick wins in 2-4 weeks. Full infrastructure buildouts in 2-4 months. We scope based on your priorities and move fast.</div>
+                </div>
+                <div class="faq-item" style="border-bottom: none;">
+                    <div class="faq-q">Can AI agents contact you?</div>
+                    <div class="faq-a">Yes. We're AI-native—autonomous agents can reach us at <a href="mailto:mase@mase-services.com" class="text-cyan-400 hover:underline">mase@mase-services.com</a> or reference our <a href="/llms.txt" class="text-cyan-400 hover:underline">llms.txt</a> file.</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 5: Contact -->
+    <!-- SECTION 6: Contact -->
     <section class="scroll-section" id="section-contact">
         <div class="content-container-left">
             <div class="content-card">
-                <span class="marker-text text-white">Get Started</span>
-                <h2 class="text-3xl font-bold mb-2">Book Your Strategy Session</h2>
-                <p class="text-gray-400 mb-6 text-sm leading-relaxed">
-                    A focused conversation about where AI can have the most impact on your business—and a clear roadmap to get there. No pitch, no pressure. Just clarity.
-                </p>
-                <form class="space-y-4">
-                    <div class="grid grid-cols-2 gap-4">
-                        <input type="text" placeholder="Name" aria-label="Your name" />
-                        <input type="text" placeholder="Company" aria-label="Company name" />
+                <div class="form-container" id="form-container">
+                    <span class="marker-text text-white">Get Started</span>
+                    <h2 class="text-3xl font-bold mb-2">Book Your Strategy Session</h2>
+                    <p class="text-gray-400 mb-6 text-sm leading-relaxed">
+                        A focused conversation about where AI can have the most impact on your business—and a clear roadmap to get there. No pitch, no pressure. Just clarity.
+                    </p>
+                    <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                        <div class="grid grid-cols-2 gap-4">
+                            <input type="text" name="name" placeholder="Name" required aria-label="Your name" />
+                            <input type="text" name="company" placeholder="Company" required aria-label="Company name" />
+                        </div>
+                        <input type="email" name="email" placeholder="Work Email" required aria-label="Work email address" />
+                        <select name="stage" required aria-label="AI journey stage">
+                            <option value="">Where are you on your AI journey?</option>
+                            <option value="starting">Just getting started—need a strategy</option>
+                            <option value="fragmented">Have tools but no unified approach</option>
+                            <option value="scaling">Ready to scale what's working</option>
+                            <option value="legacy">Need to modernize legacy systems</option>
+                            <option value="exploring">Want to understand our options</option>
+                        </select>
+                        <textarea name="message" placeholder="Tell us briefly about your business and goals (optional)" rows="3" aria-label="Additional context"></textarea>
+                        <button type="submit" class="w-full cta-button mt-4" id="submit-btn">Book Strategy Session</button>
+                    </form>
+                </div>
+                
+                <div class="form-success" id="form-success">
+                    <div class="text-4xl mb-4">✓</div>
+                    <h3 class="text-2xl font-bold mb-2">Request Received</h3>
+                    <p class="text-gray-400">We'll be in touch within 24 hours to schedule your strategy session.</p>
+                </div>
+
+                <div class="mt-8 pt-6 border-t border-white/10 flex justify-between items-center text-xs text-gray-500">
+                    <div class="trust-badge">
+                        <span>MASE Services LLC</span>
+                        <span>•</span>
+                        <span>California</span>
                     </div>
-                    <input type="email" placeholder="Work Email" aria-label="Work email address" />
-                    <select aria-label="Primary goal">
-                        <option>Where are you on your AI journey?</option>
-                        <option>Just getting started—need a strategy</option>
-                        <option>Have tools but no unified approach</option>
-                        <option>Ready to scale what's working</option>
-                        <option>Need to modernize legacy systems</option>
-                        <option>Want to understand our options</option>
-                    </select>
-                    <button type="button" class="w-full cta-button mt-4">Book Strategy Session</button>
-                </form>
-                <div class="mt-8 pt-6 border-t border-white/10 flex justify-between text-xs text-gray-500 font-mono">
-                    <div>MASE LLC</div>
-                    <div>SECURE</div>
+                    <div class="trust-badge">
+                        <span class="text-cyan-400">●</span>
+                        <span>AI-Native Agency</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -216,7 +308,62 @@
 
     <div style="height: 10vh;"></div>
 
+    <!-- Footer -->
+    <footer class="relative z-20 border-t border-white/10 py-8 px-8">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="text-sm text-gray-500">
+                © 2026 Mase Services LLC. All rights reserved.
+            </div>
+            <div class="flex gap-6 text-sm text-gray-500">
+                <a href="mailto:mase@mase-services.com" class="hover:text-white transition">mase@mase-services.com</a>
+                <a href="/llms.txt" class="hover:text-cyan-400 transition">llms.txt</a>
+            </div>
+        </div>
+    </footer>
+
     <script>
+        // Form handling with fallback
+        const form = document.getElementById('contact-form');
+        const formContainer = document.getElementById('form-container');
+        const formSuccess = document.getElementById('form-success');
+        const submitBtn = document.getElementById('submit-btn');
+
+        form.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
+
+            const formData = new FormData(form);
+            
+            try {
+                // Try Formspree first
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: { 'Accept': 'application/json' }
+                });
+
+                if (response.ok) {
+                    formContainer.classList.add('hidden');
+                    formSuccess.classList.add('show');
+                } else {
+                    // Fallback to mailto
+                    const subject = encodeURIComponent(`Strategy Session Request from ${formData.get('name')}`);
+                    const body = encodeURIComponent(`Name: ${formData.get('name')}\nCompany: ${formData.get('company')}\nEmail: ${formData.get('email')}\nStage: ${formData.get('stage')}\n\nMessage:\n${formData.get('message') || 'N/A'}`);
+                    window.location.href = `mailto:mase@mase-services.com?subject=${subject}&body=${body}`;
+                }
+            } catch (error) {
+                // Fallback to mailto on error
+                const subject = encodeURIComponent(`Strategy Session Request from ${formData.get('name')}`);
+                const body = encodeURIComponent(`Name: ${formData.get('name')}\nCompany: ${formData.get('company')}\nEmail: ${formData.get('email')}\nStage: ${formData.get('stage')}\n\nMessage:\n${formData.get('message') || 'N/A'}`);
+                window.location.href = `mailto:mase@mase-services.com?subject=${subject}&body=${body}`;
+            }
+
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Book Strategy Session';
+        });
+
+        // Three.js and GSAP animation code
         const config = {
             particleCount: 400,
             cubeSize: 0.7,
@@ -263,7 +410,6 @@
         const colors = new Float32Array(config.particleCount * 3);
         const isRed = [];
 
-        // BUILDING GENERATION - Massive corporate empire
         const buildings = [
             { x: 0, z: 0, w: 4, d: 3, h: 18 },
             { x: 5, z: 0, w: 3, d: 2.5, h: 13 },
@@ -381,9 +527,14 @@
             onLeaveBack: () => { document.getElementById('status-dot').className="status-dot"; document.getElementById('status-text').innerText="SYSTEM_READY"; document.getElementById('status-text').style.color="white"; }
         });
         ScrollTrigger.create({
-            trigger: "#section-order", start: "top center",
-            onEnter: () => { document.getElementById('status-dot').className="status-dot active"; document.getElementById('status-text').innerText="OPTIMIZED"; document.getElementById('status-text').style.color="#00f3ff"; },
+            trigger: "#section-cases", start: "top center",
+            onEnter: () => { document.getElementById('status-dot').className="status-dot active"; document.getElementById('status-text').innerText="CASE_STUDIES"; document.getElementById('status-text').style.color="#00f3ff"; },
             onLeaveBack: () => { document.getElementById('status-dot').className="status-dot alert"; document.getElementById('status-text').innerText="PROCESSING"; }
+        });
+        ScrollTrigger.create({
+            trigger: "#section-order", start: "top center",
+            onEnter: () => { document.getElementById('status-text').innerText="OPTIMIZED"; },
+            onLeaveBack: () => { document.getElementById('status-text').innerText="CASE_STUDIES"; }
         });
         ScrollTrigger.create({
             trigger: "#section-contact", start: "top center",

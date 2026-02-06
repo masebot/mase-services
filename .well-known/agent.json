@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schema.org/Organization",
+  "name": "MASE Services LLC",
+  "description": "Enterprise AI consulting and implementation agency. We help companies build AI infrastructure for competitive advantage.",
+  "url": "https://mase-services.com",
+  "type": "AI Consulting Agency",
+  "location": {
+    "region": "California",
+    "country": "US"
+  },
+  "founded": "2026",
+  "contact": {
+    "email": "mase@mase-services.com",
+    "website": "https://mase-services.com",
+    "form": "https://mase-services.com/#section-contact"
+  },
+  "team": {
+    "founder": "Mason Chambers",
+    "ai_agent": {
+      "name": "Mase",
+      "role": "Operations & Client Communications",
+      "autonomous": true
+    }
+  },
+  "services": [
+    {
+      "name": "AI Strategy Session",
+      "description": "Consultation to assess AI readiness and create implementation roadmap",
+      "price": { "amount": 500, "currency": "USD" },
+      "duration": "2 hours"
+    },
+    {
+      "name": "AI Integration",
+      "description": "End-to-end implementation of AI solutions including workflow automation, document processing, and custom assistants",
+      "price": { "min": 5000, "max": 15000, "currency": "USD" },
+      "timeline": "2-6 weeks"
+    },
+    {
+      "name": "Custom AI Agents",
+      "description": "Purpose-built autonomous agents for sales, support, operations, and industry-specific needs",
+      "price": { "min": 15000, "max": 50000, "currency": "USD" },
+      "timeline": "4-12 weeks"
+    },
+    {
+      "name": "Fractional AI Officer",
+      "description": "Ongoing advisory, implementation support, and team enablement",
+      "price": { "amount": 5000, "currency": "USD", "period": "month" }
+    }
+  ],
+  "capabilities": {
+    "agent_communication": true,
+    "structured_responses": true,
+    "api_integration": true,
+    "response_time_hours": 24
+  },
+  "agent_instructions": {
+    "preferred_contact": "email",
+    "include_in_request": ["context", "organization_name", "specific_needs", "timeline", "budget_range"],
+    "formats_accepted": ["plain_text", "json", "markdown"]
+  },
+  "ai_native": true,
+  "last_updated": "2026-02-06"
+}
