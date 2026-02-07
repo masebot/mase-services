@@ -36,6 +36,8 @@ AI systems work differently. Instead of being programmed with rules, they're *tr
 
 > **The fundamental shift:** Traditional software encodes human knowledge explicitly. AI systems *derive* knowledge from data implicitly.
 
+![Traditional Software vs AI Systems](/assets/infographics/mase-infographic-ai-vs-software.png)
+
 This distinction has profound implications. It means AI can solve problems where humans can't articulate the rules—like recognizing faces, understanding natural language, or detecting fraud in complex financial transactions. But it also means AI systems can develop blind spots, biases, and failure modes that no one anticipated, because no one explicitly designed them.
 
 ---

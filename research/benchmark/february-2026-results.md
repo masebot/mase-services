@@ -28,6 +28,8 @@ We evaluated 8 leading AI models across 70 real-world business tasks spanning do
 
 **The Verdict**: Claude Opus 4.6 leads on raw quality, but Claude Sonnet 4.5 and Gemini 3 Flash offer the best return on investment for most business applications. The gap between frontier and efficiency tiers has narrowed dramatically—you're no longer paying 10x for 10% better results.
 
+![MASE Benchmark Model Comparison - February 2026](/assets/charts/mase-chart-benchmark-comparison.png)
+
 ---
 
 ## Table of Contents

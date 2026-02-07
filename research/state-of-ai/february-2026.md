@@ -26,6 +26,8 @@ The AI landscape in February 2026 is defined by a stark divergence: while model 
 
 - **2026 will be defined by agents:** We project 40% of Fortune 500 companies will have production agentic AI systems by year-end, up from approximately 8% today.
 
+![AI Pilot Success Rates by Implementation Approach](/assets/charts/mase-chart-pilot-success-rates.png)
+
 ---
 
 ## 1. The Big Picture: Where AI Stands in February 2026

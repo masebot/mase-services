@@ -36,6 +36,8 @@ This emergent understanding is what separates modern LLMs from the autocomplete 
 
 Large language models, trained on hundreds of billions of words, develop something qualitatively different. They learn grammar and syntax, yes. But they also learn facts about the world, logical relationships between concepts, common reasoning patterns, literary styles, emotional nuances, and countless other aspects of human knowledge—all as byproducts of learning to predict words more accurately.
 
+![How Large Language Models Work](/assets/infographics/mase-infographic-how-llms-work.png)
+
 ---
 
 ## How Scale Creates Capability

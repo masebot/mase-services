@@ -37,6 +37,9 @@ function markdownToHtml(md) {
   html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
   html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
   
+  // Images (must come before links)
+  html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<figure class="my-8"><img src="$2" alt="$1" class="w-full rounded-lg border border-white/10"><figcaption class="text-center text-sm text-gray-500 mt-2">$1</figcaption></figure>');
+  
   // Links
   html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="accent hover:underline">$1</a>');
   
@@ -100,6 +103,11 @@ function articleTemplate(content, meta) {
     <meta property="og:url" content="https://mase-services.com${meta.url}">
     
     <link rel="canonical" href="https://mase-services.com${meta.url}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/favicon-512.png">
+    <meta property="og:image" content="https://mase-services.com/assets/icons/mase-og-image.png">
     
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
