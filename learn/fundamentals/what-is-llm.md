@@ -54,6 +54,8 @@ These "emergent capabilities" caught researchers by surprise. OpenAI, Google Dee
 
 The implication is profound: we don't fully understand why these models work as well as they do. We designed the training process, but the capabilities that emerged were not specifically programmed. This is simultaneously exciting and humbling—we've created something powerful that we don't entirely understand.
 
+![Emergent Capabilities at Scale](/assets/charts/mase-chart-scale-emergence.png)
+
 ---
 
 ## The Training Process: A Simple Explanation

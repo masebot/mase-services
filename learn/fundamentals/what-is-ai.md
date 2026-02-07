@@ -73,6 +73,8 @@ At the far end of the spectrum are deep learning systems—the technology behind
 
 Deep learning excels at unstructured data: images, audio, video, natural language. The systems that power Google Translate, Tesla's autopilot, and ChatGPT all rely on deep learning architectures.
 
+![The AI Spectrum: From Rules to Deep Learning](/assets/infographics/mase-infographic-ai-spectrum.png)
+
 What makes these systems powerful is also what makes them opaque. A deep learning model might have billions of parameters—mathematical weights adjusted during training—and even the engineers who build them often can't explain precisely why the model makes specific decisions. This is the "black box" problem you've likely heard about.
 
 ---
@@ -93,6 +95,8 @@ A spam filter is intelligent in this sense: it perceives incoming emails, reason
 But note what's missing from this definition: understanding, consciousness, general purpose reasoning, common sense, moral judgment. Today's AI systems—including the most advanced ones—don't have any of these things.
 
 > **Critical distinction:** AI systems can exhibit intelligent *behavior* in specific domains without possessing general intelligence. They're tools, not minds.
+
+![Real AI vs Marketing Hype](/assets/infographics/mase-infographic-real-vs-fake-ai.png)
 
 This is important because it shapes what you should expect. An AI system trained to review contracts will not spontaneously understand your broader business strategy. A chatbot that handles customer service won't actually care about your customers. The intelligence is narrow, task-specific, and fundamentally mechanical—however impressive the outputs might appear.
 

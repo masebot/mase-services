@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Industry Spotlights | MASE Learn</title>
+    <meta name="description" content="AI applications specific to your industry. Real use cases and implementation patterns for manufacturing, finance, healthcare, and more.">
+    <meta name="robots" content="index, follow">
+    
+    <link rel="canonical" href="https://mase-services.com/learn/industry">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/favicon-512.png">
+    <meta property="og:image" content="https://mase-services.com/assets/icons/mase-og-image.png">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --accent: #f59e0b; --bg: #030305; }
+        body { background-color: var(--bg); color: white; font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4 { font-family: 'Space Grotesk', sans-serif; }
+        .accent { color: var(--accent); }
+        .card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; transition: all 0.3s; }
+        .card:hover { border-color: var(--accent); background: rgba(245,158,11,0.05); }
+        .btn-primary { background: white; color: black; font-weight: 600; padding: 0.75rem 1.5rem; border-radius: 6px; transition: all 0.3s; text-decoration: none; display: inline-block; }
+        .btn-primary:hover { background: var(--accent); }
+    </style>
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="border-b border-white/10 px-6 py-4">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold tracking-tighter font-mono">MASE<span style="color:#00f3ff">_</span></a>
+            <div class="flex items-center gap-6">
+                <a href="/research" class="text-sm text-gray-400 hover:text-white transition">Research</a>
+                <a href="/learn" class="text-sm text-white">Learn</a>
+                <a href="/#section-contact" class="btn-primary text-sm py-2 px-4">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="border-b border-white/10 px-6 py-3">
+        <div class="max-w-4xl mx-auto">
+            <nav class="text-sm text-gray-400">
+                <a href="/" class="hover:text-white">Home</a>
+                <span class="mx-2">/</span>
+                <a href="/learn" class="hover:text-white">Learn</a>
+                <span class="mx-2">/</span>
+                <span class="text-white">Industry Spotlights</span>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="py-16 px-6 border-b border-white/10">
+        <div class="max-w-4xl mx-auto">
+            <div class="flex items-center gap-4 mb-6">
+                <div class="w-14 h-14 rounded-xl bg-amber-500/20 flex items-center justify-center">
+                    <i data-lucide="factory" class="w-7 h-7 accent"></i>
+                </div>
+                <div>
+                    <div class="text-sm font-mono accent tracking-wider">TRACK 4 OF 4</div>
+                    <h1 class="text-4xl font-bold">Industry Spotlights</h1>
+                </div>
+            </div>
+            <p class="text-xl text-gray-400 mb-6 max-w-2xl">
+                AI applications specific to your industry. Real use cases, implementation patterns, and case studies from companies like yours.
+            </p>
+            <div class="flex items-center gap-6 text-sm text-gray-400">
+                <span class="flex items-center gap-2">
+                    <i data-lucide="book-open" class="w-4 h-4"></i>
+                    8 articles
+                </span>
+                <span class="flex items-center gap-2">
+                    <i data-lucide="clock" class="w-4 h-4"></i>
+                    ~4 hours total
+                </span>
+                <span class="flex items-center gap-2">
+                    <i data-lucide="signal" class="w-4 h-4"></i>
+                    All Levels
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Articles Grid -->
+    <section class="py-12 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-4">
+                
+                <div class="card p-6 opacity-60">
+                    <div class="w-10 h-10 rounded-lg bg-blue-500/20 flex items-center justify-center mb-4">
+                        <i data-lucide="cog" class="w-5 h-5 text-blue-400"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">AI in Manufacturing</h3>
+                    <p class="text-gray-400 text-sm mb-3">Predictive maintenance, quality control, supply chain optimization, and worker safety.</p>
+                    <div class="text-xs text-gray-500">22 min read • Coming Soon</div>
+                </div>
+
+                <div class="card p-6 opacity-60">
+                    <div class="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center mb-4">
+                        <i data-lucide="landmark" class="w-5 h-5 text-green-400"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">AI in Financial Services</h3>
+                    <p class="text-gray-400 text-sm mb-3">Fraud detection, credit risk, customer service, compliance, and RegTech.</p>
+                    <div class="text-xs text-gray-500">22 min read • Coming Soon</div>
+                </div>
+
+                <div class="card p-6 opacity-60">
+                    <div class="w-10 h-10 rounded-lg bg-purple-500/20 flex items-center justify-center mb-4">
+                        <i data-lucide="briefcase" class="w-5 h-5 text-purple-400"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">AI in Professional Services</h3>
+                    <p class="text-gray-400 text-sm mb-3">Document analysis, client service enhancement, billing optimization, business development.</p>
+                    <div class="text-xs text-gray-500">20 min read • Coming Soon</div>
+                </div>
+
+                <div class="card p-6 opacity-60">
+                    <div class="w-10 h-10 rounded-lg bg-red-500/20 flex items-center justify-center mb-4">
+                        <i data-lucide="heart-pulse" class="w-5 h-5 text-red-400"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">AI in Healthcare Admin</h3>
+                    <p class="text-gray-400 text-sm mb-3">Revenue cycle, scheduling, documentation, compliance—operations, not clinical.</p>
+                    <div class="text-xs text-gray-500">20 min read • Coming Soon</div>
+                </div>
+
+                <div class="card p-6 opacity-60">
+                    <div class="w-10 h-10 rounded-lg bg-cyan-500/20 flex items-center justify-center mb-4">
+                        <i data-lucide="truck" class="w-5 h-5 text-cyan-400"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">AI in Distribution</h3>
+                    <p class="text-gray-400 text-sm mb-3">Demand forecasting, inventory optimization, route optimization, warehouse automation.</p>
+                    <div class="text-xs text-gray-500">20 min read • Coming Soon</div>
+                </div>
+
+                <div class="card p-6 opacity-60">
+                    <div class="w-10 h-10 rounded-lg bg-orange-500/20 flex items-center justify-center mb-4">
+                        <i data-lucide="hard-hat" class="w-5 h-5 text-orange-400"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">AI in Construction</h3>
+                    <p class="text-gray-400 text-sm mb-3">Project management, safety, estimating and bidding, site monitoring.</p>
+                    <div class="text-xs text-gray-500">18 min read • Coming Soon</div>
+                </div>
+
+                <div class="card p-6 opacity-60">
+                    <div class="w-10 h-10 rounded-lg bg-pink-500/20 flex items-center justify-center mb-4">
+                        <i data-lucide="users" class="w-5 h-5 text-pink-400"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">AI for Family Businesses</h3>
+                    <p class="text-gray-400 text-sm mb-3">The generational opportunity. Starting small, preserving institutional knowledge, budget-conscious approaches.</p>
+                    <div class="text-xs text-gray-500">18 min read • Coming Soon</div>
+                </div>
+
+                <div class="card p-6 opacity-60">
+                    <div class="w-10 h-10 rounded-lg bg-yellow-500/20 flex items-center justify-center mb-4">
+                        <i data-lucide="wrench" class="w-5 h-5 text-yellow-400"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">AI in Industrial Services</h3>
+                    <p class="text-gray-400 text-sm mb-3">Field services, scheduling optimization, predictive service, technician enablement.</p>
+                    <div class="text-xs text-gray-500">18 min read • Coming Soon</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <section class="py-12 px-6 border-t border-white/10">
+        <div class="max-w-4xl mx-auto flex justify-between">
+            <a href="/learn/implementation" class="card p-4 flex items-center gap-4 group">
+                <i data-lucide="arrow-left" class="w-5 h-5 text-gray-600 group-hover:text-green-400 transition"></i>
+                <div>
+                    <div class="text-xs text-gray-500">Previous Track</div>
+                    <div class="font-bold group-hover:text-green-400 transition">Implementation</div>
+                </div>
+            </a>
+            <a href="/learn" class="card p-4 flex items-center gap-4 group text-right">
+                <div>
+                    <div class="text-xs text-gray-500">Back to</div>
+                    <div class="font-bold group-hover:text-cyan-400 transition">All Tracks</div>
+                </div>
+                <i data-lucide="arrow-right" class="w-5 h-5 text-gray-600 group-hover:text-cyan-400 transition"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 px-6 border-t border-white/10">
+        <div class="max-w-2xl mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-4">Don't See Your Industry?</h2>
+            <p class="text-gray-400 mb-6">We're always adding new content. Let us know what you need.</p>
+            <a href="/#section-contact" class="btn-primary">Request an Industry Guide</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 py-8 px-6">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="text-sm text-gray-500">2026 Mase Services LLC</div>
+            <div class="flex items-center gap-6 text-sm text-gray-500">
+                <a href="/" class="hover:text-white transition">Home</a>
+                <a href="/research" class="hover:text-white transition">Research</a>
+                <a href="/learn" class="hover:text-white transition">Learn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>

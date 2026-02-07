@@ -220,6 +220,8 @@ Gemini 3 Flash     ▐███████████████████�
 
 **Note**: GPT-5.2 Pro's extended reasoning time reflects its "high" reasoning effort configuration. For time-sensitive applications, GPT-5.2 or Gemini 3 Flash are recommended.
 
+![Model Performance by Category](/assets/charts/mase-chart-category-radar.png)
+
 ---
 
 ## 4. Category Breakdown

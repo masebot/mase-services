@@ -69,6 +69,8 @@ We observe enterprises distributed across three distinct waves of AI adoption:
 
 The acceleration into Wave 3 is the defining trend of early 2026. Companies that mastered Wave 2 in 2025 are now reaping exponential returns as they deploy autonomous agents. Those still struggling with Wave 1 face an increasingly steep climb.
 
+![The Three Waves of Enterprise AI Adoption](/assets/infographics/mase-infographic-three-waves.png)
+
 > **"The AI adoption curve isn't linear—it's exponential. Companies three years behind aren't three years behind; they're a generation behind."**  
 > — *Dr. Erik Brynjolfsson, Stanford Digital Economy Lab*
 
@@ -505,6 +507,8 @@ The distribution of AI ROI is highly skewed:
 - **Top 10%** of implementations capture **87%** of documented value
 - **Middle 40%** captures **12%** of value
 - **Bottom 50%** captures **1%** of value (or negative returns)
+
+![AI ROI Concentration](/assets/charts/mase-chart-roi-concentration.png)
 
 *Source: BCG AI Value Creation Study, Q4 2025*
 
