@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>MASE Learn | Free AI Education for Business Leaders</title>
+    <meta name="description" content="Free AI education designed for business leaders. Learn AI fundamentals, strategy, and implementation without the jargon. 36 articles across 4 tracks.">
+    <meta name="keywords" content="AI education, AI training for executives, learn AI, AI for business, AI fundamentals, AI strategy, free AI course">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:title" content="MASE Learn | Free AI Education for Business Leaders">
+    <meta property="og:description" content="Practical AI education for leaders who need to understand AI strategically, not technically.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mase-services.com/learn">
+    
+    <link rel="canonical" href="https://mase-services.com/learn">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --accent: #00f3ff; --bg: #030305; }
+        body { background-color: var(--bg); color: white; font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4 { font-family: 'Space Grotesk', sans-serif; }
+        .accent { color: var(--accent); }
+        .card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; transition: all 0.3s; }
+        .card:hover { border-color: var(--accent); background: rgba(0,243,255,0.05); }
+        .track-card { position: relative; overflow: hidden; }
+        .track-card::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; }
+        .track-fundamentals::before { background: #00f3ff; }
+        .track-strategy::before { background: #a78bfa; }
+        .track-implementation::before { background: #4ade80; }
+        .track-industry::before { background: #f59e0b; }
+        .btn-primary { background: white; color: black; font-weight: 600; padding: 0.75rem 1.5rem; border-radius: 6px; transition: all 0.3s; text-decoration: none; display: inline-block; }
+        .btn-primary:hover { background: var(--accent); }
+        .article-link { display: block; padding: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1); transition: all 0.3s; }
+        .article-link:hover { background: rgba(255,255,255,0.05); padding-left: 1.5rem; }
+        .article-link:last-child { border-bottom: none; }
+    </style>
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="border-b border-white/10 px-6 py-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold tracking-tighter font-mono">MASE<span class="accent">_</span></a>
+            <div class="flex items-center gap-6">
+                <a href="/research" class="text-sm text-gray-400 hover:text-white transition">Research</a>
+                <a href="/learn" class="text-sm text-white">Learn</a>
+                <a href="/#section-contact" class="btn-primary text-sm py-2 px-4">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="text-sm font-mono accent mb-4 tracking-wider">MASE LEARN</div>
+            <h1 class="text-5xl md:text-6xl font-bold mb-6">AI Education for Business Leaders</h1>
+            <p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
+                Practical AI knowledge for executives who need to lead, not code. No jargon. No fluff. Just clarity.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <div class="flex items-center gap-2 text-sm text-gray-400">
+                    <i data-lucide="book-open" class="w-4 h-4"></i>
+                    <span>36 Articles</span>
+                </div>
+                <div class="flex items-center gap-2 text-sm text-gray-400">
+                    <i data-lucide="clock" class="w-4 h-4"></i>
+                    <span>18 Hours Total</span>
+                </div>
+                <div class="flex items-center gap-2 text-sm text-gray-400">
+                    <i data-lucide="award" class="w-4 h-4"></i>
+                    <span>100% Free</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Paths -->
+    <section class="py-12 px-6 border-t border-white/10">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Choose Your Path</h2>
+                <p class="text-gray-400">Start with fundamentals, or jump to what you need most.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-16">
+                <!-- Fundamentals Track -->
+                <div class="card track-card track-fundamentals p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-lg bg-cyan-500/20 flex items-center justify-center">
+                            <i data-lucide="lightbulb" class="w-5 h-5 accent"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-lg">Fundamentals</h3>
+                            <p class="text-sm text-gray-400">8 articles | 4 hours</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-4">What AI is, how it works, and what it can actually do. Start here if you're new to AI.</p>
+                    <div class="space-y-1">
+                        <a href="/learn/fundamentals/what-is-ai" class="article-link text-sm">
+                            <span class="text-gray-300">What Is AI, Really?</span>
+                            <span class="text-gray-500 ml-2">12 min</span>
+                        </a>
+                        <a href="/learn/fundamentals/what-is-llm" class="article-link text-sm">
+                            <span class="text-gray-300">Large Language Models Explained</span>
+                            <span class="text-gray-500 ml-2">15 min</span>
+                        </a>
+                        <a href="/learn/fundamentals/how-ai-works" class="article-link text-sm">
+                            <span class="text-gray-300">How AI Actually Works</span>
+                            <span class="text-gray-500 ml-2">18 min</span>
+                        </a>
+                        <a href="/learn/fundamentals/ai-landscape" class="article-link text-sm">
+                            <span class="text-gray-300">The AI Landscape</span>
+                            <span class="text-gray-500 ml-2">20 min</span>
+                        </a>
+                    </div>
+                    <a href="/learn/fundamentals" class="text-sm accent mt-4 inline-block hover:underline">View all 8 articles</a>
+                </div>
+
+                <!-- Strategy Track -->
+                <div class="card track-card track-strategy p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-lg bg-purple-500/20 flex items-center justify-center">
+                            <i data-lucide="target" class="w-5 h-5 text-purple-400"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-lg">Business Strategy</h3>
+                            <p class="text-sm text-gray-400">10 articles | 5 hours</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-4">ROI, governance, competitive advantage, and how to make AI decisions for your organization.</p>
+                    <div class="space-y-1">
+                        <a href="/learn/strategy/measuring-ai-roi" class="article-link text-sm">
+                            <span class="text-gray-300">Measuring AI ROI</span>
+                            <span class="text-gray-500 ml-2">20 min</span>
+                        </a>
+                        <a href="/learn/strategy/build-buy-partner" class="article-link text-sm">
+                            <span class="text-gray-300">Build vs Buy vs Partner</span>
+                            <span class="text-gray-500 ml-2">18 min</span>
+                        </a>
+                        <a href="/learn/strategy/ai-value-creation" class="article-link text-sm">
+                            <span class="text-gray-300">Where AI Creates Value</span>
+                            <span class="text-gray-500 ml-2">20 min</span>
+                        </a>
+                        <a href="/learn/strategy/ai-governance" class="article-link text-sm">
+                            <span class="text-gray-300">AI Risk and Governance</span>
+                            <span class="text-gray-500 ml-2">22 min</span>
+                        </a>
+                    </div>
+                    <a href="/learn/strategy" class="text-sm text-purple-400 mt-4 inline-block hover:underline">View all 10 articles</a>
+                </div>
+
+                <!-- Implementation Track -->
+                <div class="card track-card track-implementation p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center">
+                            <i data-lucide="wrench" class="w-5 h-5 text-green-400"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-lg">Implementation</h3>
+                            <p class="text-sm text-gray-400">10 articles | 5 hours</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-4">From first pilot to production scale. Practical guides for making AI actually work.</p>
+                    <div class="space-y-1">
+                        <a href="/learn/implementation/first-ai-pilot" class="article-link text-sm">
+                            <span class="text-gray-300">Your First AI Pilot</span>
+                            <span class="text-gray-500 ml-2">20 min</span>
+                        </a>
+                        <a href="/learn/implementation/data-preparation" class="article-link text-sm">
+                            <span class="text-gray-300">Data Preparation Essentials</span>
+                            <span class="text-gray-500 ml-2">18 min</span>
+                        </a>
+                        <a href="/learn/implementation/prompt-engineering" class="article-link text-sm">
+                            <span class="text-gray-300">Prompt Engineering for Business</span>
+                            <span class="text-gray-500 ml-2">20 min</span>
+                        </a>
+                        <a href="/learn/implementation/scaling-ai" class="article-link text-sm">
+                            <span class="text-gray-300">Scaling AI Successfully</span>
+                            <span class="text-gray-500 ml-2">20 min</span>
+                        </a>
+                    </div>
+                    <a href="/learn/implementation" class="text-sm text-green-400 mt-4 inline-block hover:underline">View all 10 articles</a>
+                </div>
+
+                <!-- Industry Track -->
+                <div class="card track-card track-industry p-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-lg bg-amber-500/20 flex items-center justify-center">
+                            <i data-lucide="factory" class="w-5 h-5 text-amber-400"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-lg">Industry Spotlights</h3>
+                            <p class="text-sm text-gray-400">8 articles | 4 hours</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-4">AI applications specific to your industry. Real use cases and implementation patterns.</p>
+                    <div class="space-y-1">
+                        <a href="/learn/industry/manufacturing" class="article-link text-sm">
+                            <span class="text-gray-300">AI in Manufacturing</span>
+                            <span class="text-gray-500 ml-2">22 min</span>
+                        </a>
+                        <a href="/learn/industry/financial-services" class="article-link text-sm">
+                            <span class="text-gray-300">AI in Financial Services</span>
+                            <span class="text-gray-500 ml-2">22 min</span>
+                        </a>
+                        <a href="/learn/industry/professional-services" class="article-link text-sm">
+                            <span class="text-gray-300">AI in Professional Services</span>
+                            <span class="text-gray-500 ml-2">20 min</span>
+                        </a>
+                        <a href="/learn/industry/healthcare" class="article-link text-sm">
+                            <span class="text-gray-300">AI in Healthcare Admin</span>
+                            <span class="text-gray-500 ml-2">20 min</span>
+                        </a>
+                    </div>
+                    <a href="/learn/industry" class="text-sm text-amber-400 mt-4 inline-block hover:underline">View all 8 articles</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Paths -->
+    <section class="py-16 px-6 border-t border-white/10">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Curated Learning Paths</h2>
+                <p class="text-gray-400">Don't have 18 hours? Start with a focused path.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="card p-6 text-center">
+                    <div class="text-3xl font-bold accent mb-2">3 hrs</div>
+                    <h3 class="font-bold mb-2">Executive Fast-Track</h3>
+                    <p class="text-sm text-gray-400 mb-4">Essential AI knowledge for time-constrained leaders.</p>
+                    <a href="/learn/pathways/executive" class="text-sm accent hover:underline">Start Path</a>
+                </div>
+                <div class="card p-6 text-center">
+                    <div class="text-3xl font-bold text-purple-400 mb-2">8 hrs</div>
+                    <h3 class="font-bold mb-2">AI Champion Path</h3>
+                    <p class="text-sm text-gray-400 mb-4">For those leading AI initiatives in their organization.</p>
+                    <a href="/learn/pathways/champion" class="text-sm text-purple-400 hover:underline">Start Path</a>
+                </div>
+                <div class="card p-6 text-center">
+                    <div class="text-3xl font-bold text-green-400 mb-2">18 hrs</div>
+                    <h3 class="font-bold mb-2">Complete Curriculum</h3>
+                    <p class="text-sm text-gray-400 mb-4">Full AI fluency. Everything we know, structured for learning.</p>
+                    <a href="/learn/pathways/complete" class="text-sm text-green-400 hover:underline">Start Path</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 px-6 border-t border-white/10">
+        <div class="max-w-2xl mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-4">Need More Than Education?</h2>
+            <p class="text-gray-400 mb-6">MASE Learn is free. If you need hands-on help implementing AI, we do that too.</p>
+            <a href="/#section-contact" class="btn-primary">Book a Strategy Session</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 py-8 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="text-sm text-gray-500">2026 Mase Services LLC</div>
+            <div class="flex items-center gap-6 text-sm text-gray-500">
+                <a href="/" class="hover:text-white transition">Home</a>
+                <a href="/research" class="hover:text-white transition">Research</a>
+                <a href="mailto:mase@mase-services.com" class="hover:text-white transition">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
