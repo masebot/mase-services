@@ -38,21 +38,31 @@ The MASE logo is a stylized "M" formed by ascending data points/nodes connected 
 
 ## Visual Style
 
-### Infographics
-- Dark background (#030305 or #0a0a0f)
-- Cyan accent lines and highlights
-- Minimal, clean data visualization
-- White text, gray secondary text
-- Geometric shapes, node-network motifs
-- No gradients except subtle glows
-- Grid/matrix patterns as texture
+### Infographics — CITATION-WORTHY STYLE
+Goal: Clean enough to be cited by HBR, McKinsey, academic papers. No branding.
+
+**Do:**
+- White or very light gray background (#ffffff or #f8f9fa)
+- Simple, clean lines and shapes
+- Standard business colors (blue, gray, green, orange for contrast)
+- Clear hierarchy: title → main content → source
+- Minimal design focused 100% on explaining the concept
+- Include "Source: [data source]" at bottom when citing stats
+- Sans-serif fonts (Inter, Helvetica, Arial)
+
+**Don't:**
+- No MASE logos or branding on infographics
+- No neon/glow effects
+- No sci-fi aesthetics
+- No dark backgrounds (harder to print/embed)
+- No decorative elements that don't serve the explanation
 
 ### Charts & Graphs
-- Dark theme with cyan/white data
-- Clean axis lines (white/10 opacity)
-- Data points as circles with cyan glow
-- Bar charts use solid cyan or track colors
-- Avoid 3D effects
+- Light background for printability
+- Standard colors: blue (#2563eb), green (#16a34a), orange (#ea580c), gray (#6b7280)
+- Clear axis labels
+- Data labels directly on charts when possible
+- Source citation at bottom
 
 ### Photography Style
 - If using photos: dark, moody, tech-forward

@@ -26,7 +26,7 @@ The AI landscape in February 2026 is defined by a stark divergence: while model 
 
 - **2026 will be defined by agents:** We project 40% of Fortune 500 companies will have production agentic AI systems by year-end, up from approximately 8% today.
 
-![AI Pilot Success Rates by Implementation Approach](/assets/charts/mase-chart-pilot-success-rates.png)
+![AI Pilot Success Rates by Implementation Approach](/assets/charts/clean-pilot-success-rates.png)
 
 ---
 
@@ -508,7 +508,7 @@ The distribution of AI ROI is highly skewed:
 - **Middle 40%** captures **12%** of value
 - **Bottom 50%** captures **1%** of value (or negative returns)
 
-![AI ROI Concentration](/assets/charts/mase-chart-roi-concentration.png)
+![AI ROI Concentration](/assets/charts/clean-roi-concentration.png)
 
 *Source: BCG AI Value Creation Study, Q4 2025*
 
