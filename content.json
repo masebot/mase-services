@@ -1,0 +1,381 @@
+{
+  "site": {
+    "name": "MASE Services",
+    "tagline": "The McKinsey of AI",
+    "url": "https://mase-services.com",
+    "email": "mase@mase-services.com"
+  },
+  "navigation": [
+    { "label": "Research", "href": "/research" },
+    { "label": "Learn", "href": "/learn" },
+    { "label": "Contact", "href": "/#section-contact" }
+  ],
+  "learn": {
+    "title": "MASE Learn",
+    "description": "Free AI education for business leaders",
+    "tracks": [
+      {
+        "id": "fundamentals",
+        "title": "Fundamentals",
+        "description": "What AI is, how it works, and what it can actually do",
+        "color": "#00f3ff",
+        "icon": "lightbulb",
+        "articles": [
+          {
+            "id": "what-is-ai",
+            "title": "What Is AI, Really?",
+            "subtitle": "A Plain-English Explanation for Leaders",
+            "file": "learn/fundamentals/what-is-ai.md",
+            "readTime": 14,
+            "status": "published"
+          },
+          {
+            "id": "what-is-llm",
+            "title": "Large Language Models Explained",
+            "subtitle": "The Technology Behind ChatGPT",
+            "file": "learn/fundamentals/what-is-llm.md",
+            "readTime": 14,
+            "status": "published"
+          },
+          {
+            "id": "how-ai-works",
+            "title": "How AI Actually Works",
+            "subtitle": "Pattern Recognition, Training, and Inference",
+            "file": "learn/fundamentals/how-ai-works.md",
+            "readTime": 18,
+            "status": "draft"
+          },
+          {
+            "id": "ai-landscape",
+            "title": "The AI Landscape",
+            "subtitle": "Major Players, Models, and Technologies",
+            "file": "learn/fundamentals/ai-landscape.md",
+            "readTime": 20,
+            "status": "draft"
+          },
+          {
+            "id": "ai-vs-automation",
+            "title": "AI vs Traditional Automation",
+            "subtitle": "When You Need Intelligence vs Rules",
+            "file": "learn/fundamentals/ai-vs-automation.md",
+            "readTime": 15,
+            "status": "draft"
+          },
+          {
+            "id": "ai-limitations",
+            "title": "What AI Cannot Do",
+            "subtitle": "Honest Limitations Every Leader Should Know",
+            "file": "learn/fundamentals/ai-limitations.md",
+            "readTime": 16,
+            "status": "draft"
+          },
+          {
+            "id": "ai-terminology",
+            "title": "AI Terminology Decoded",
+            "subtitle": "The Only Glossary You'll Need",
+            "file": "learn/fundamentals/ai-terminology.md",
+            "readTime": 12,
+            "status": "draft"
+          },
+          {
+            "id": "ai-timeline",
+            "title": "How We Got Here",
+            "subtitle": "AI History That Actually Matters",
+            "file": "learn/fundamentals/ai-timeline.md",
+            "readTime": 15,
+            "status": "draft"
+          }
+        ]
+      },
+      {
+        "id": "strategy",
+        "title": "Business Strategy",
+        "description": "ROI, governance, competitive advantage, and AI decisions",
+        "color": "#a78bfa",
+        "icon": "target",
+        "articles": [
+          {
+            "id": "measuring-ai-roi",
+            "title": "Measuring AI ROI",
+            "subtitle": "Frameworks That Actually Work",
+            "file": "learn/strategy/measuring-ai-roi.md",
+            "readTime": 20,
+            "status": "draft"
+          },
+          {
+            "id": "build-buy-partner",
+            "title": "Build vs Buy vs Partner",
+            "subtitle": "The Decision Framework",
+            "file": "learn/strategy/build-buy-partner.md",
+            "readTime": 18,
+            "status": "draft"
+          },
+          {
+            "id": "ai-value-creation",
+            "title": "Where AI Creates Value",
+            "subtitle": "The 5 Value Levers",
+            "file": "learn/strategy/ai-value-creation.md",
+            "readTime": 20,
+            "status": "draft"
+          },
+          {
+            "id": "ai-governance",
+            "title": "AI Risk and Governance",
+            "subtitle": "Frameworks for Responsible Deployment",
+            "file": "learn/strategy/ai-governance.md",
+            "readTime": 22,
+            "status": "draft"
+          },
+          {
+            "id": "competitive-moats",
+            "title": "AI and Competitive Moats",
+            "subtitle": "Data, Talent, and First-Mover Advantages",
+            "file": "learn/strategy/competitive-moats.md",
+            "readTime": 18,
+            "status": "draft"
+          },
+          {
+            "id": "ai-talent-strategy",
+            "title": "AI Talent Strategy",
+            "subtitle": "Build, Buy, Borrow, or Augment",
+            "file": "learn/strategy/ai-talent-strategy.md",
+            "readTime": 16,
+            "status": "draft"
+          },
+          {
+            "id": "board-ai-literacy",
+            "title": "AI Literacy for Boards",
+            "subtitle": "Governance in the AI Era",
+            "file": "learn/strategy/board-ai-literacy.md",
+            "readTime": 15,
+            "status": "draft"
+          },
+          {
+            "id": "ai-roadmap",
+            "title": "Building an AI Roadmap",
+            "subtitle": "From Vision to Execution",
+            "file": "learn/strategy/ai-roadmap.md",
+            "readTime": 20,
+            "status": "draft"
+          },
+          {
+            "id": "change-management",
+            "title": "Change Management for AI",
+            "subtitle": "Getting Your Organization Ready",
+            "file": "learn/strategy/change-management.md",
+            "readTime": 18,
+            "status": "draft"
+          },
+          {
+            "id": "ai-investment-thesis",
+            "title": "Making the Business Case",
+            "subtitle": "How to Get AI Projects Funded",
+            "file": "learn/strategy/ai-investment-thesis.md",
+            "readTime": 16,
+            "status": "draft"
+          }
+        ]
+      },
+      {
+        "id": "implementation",
+        "title": "Implementation",
+        "description": "From first pilot to production scale",
+        "color": "#4ade80",
+        "icon": "wrench",
+        "articles": [
+          {
+            "id": "first-ai-pilot",
+            "title": "Your First AI Pilot",
+            "subtitle": "A Step-by-Step Guide",
+            "file": "learn/implementation/first-ai-pilot.md",
+            "readTime": 20,
+            "status": "draft"
+          },
+          {
+            "id": "data-preparation",
+            "title": "Data Preparation Essentials",
+            "subtitle": "What You Actually Need",
+            "file": "learn/implementation/data-preparation.md",
+            "readTime": 18,
+            "status": "draft"
+          },
+          {
+            "id": "prompt-engineering",
+            "title": "Prompt Engineering for Business",
+            "subtitle": "Getting Better Outputs",
+            "file": "learn/implementation/prompt-engineering.md",
+            "readTime": 20,
+            "status": "draft"
+          },
+          {
+            "id": "scaling-ai",
+            "title": "Scaling AI Successfully",
+            "subtitle": "From Pilot to Production",
+            "file": "learn/implementation/scaling-ai.md",
+            "readTime": 20,
+            "status": "draft"
+          },
+          {
+            "id": "vendor-selection",
+            "title": "AI Vendor Selection",
+            "subtitle": "Evaluation Criteria That Matter",
+            "file": "learn/implementation/vendor-selection.md",
+            "readTime": 18,
+            "status": "draft"
+          },
+          {
+            "id": "integration-patterns",
+            "title": "Integration Patterns",
+            "subtitle": "Connecting AI to Your Systems",
+            "file": "learn/implementation/integration-patterns.md",
+            "readTime": 22,
+            "status": "draft"
+          },
+          {
+            "id": "testing-validation",
+            "title": "Testing and Validation",
+            "subtitle": "Ensuring Quality at Scale",
+            "file": "learn/implementation/testing-validation.md",
+            "readTime": 16,
+            "status": "draft"
+          },
+          {
+            "id": "monitoring-ops",
+            "title": "AI Operations",
+            "subtitle": "Monitoring, Maintenance, and Improvement",
+            "file": "learn/implementation/monitoring-ops.md",
+            "readTime": 18,
+            "status": "draft"
+          },
+          {
+            "id": "common-pitfalls",
+            "title": "Common Implementation Pitfalls",
+            "subtitle": "Mistakes to Avoid",
+            "file": "learn/implementation/common-pitfalls.md",
+            "readTime": 15,
+            "status": "draft"
+          },
+          {
+            "id": "success-metrics",
+            "title": "Defining Success Metrics",
+            "subtitle": "What to Measure and When",
+            "file": "learn/implementation/success-metrics.md",
+            "readTime": 16,
+            "status": "draft"
+          }
+        ]
+      },
+      {
+        "id": "industry",
+        "title": "Industry Spotlights",
+        "description": "AI applications specific to your industry",
+        "color": "#f59e0b",
+        "icon": "factory",
+        "articles": [
+          {
+            "id": "manufacturing",
+            "title": "AI in Manufacturing",
+            "subtitle": "Predictive Maintenance, Quality, and Beyond",
+            "file": "learn/industry/manufacturing.md",
+            "readTime": 22,
+            "status": "draft"
+          },
+          {
+            "id": "financial-services",
+            "title": "AI in Financial Services",
+            "subtitle": "Risk, Compliance, and Customer Experience",
+            "file": "learn/industry/financial-services.md",
+            "readTime": 22,
+            "status": "draft"
+          },
+          {
+            "id": "professional-services",
+            "title": "AI in Professional Services",
+            "subtitle": "Augmenting Knowledge Work",
+            "file": "learn/industry/professional-services.md",
+            "readTime": 20,
+            "status": "draft"
+          },
+          {
+            "id": "healthcare",
+            "title": "AI in Healthcare Admin",
+            "subtitle": "Operations, Not Clinical",
+            "file": "learn/industry/healthcare.md",
+            "readTime": 20,
+            "status": "draft"
+          },
+          {
+            "id": "distribution",
+            "title": "AI in Distribution",
+            "subtitle": "Supply Chain and Logistics",
+            "file": "learn/industry/distribution.md",
+            "readTime": 20,
+            "status": "draft"
+          },
+          {
+            "id": "construction",
+            "title": "AI in Construction",
+            "subtitle": "Project Management and Safety",
+            "file": "learn/industry/construction.md",
+            "readTime": 18,
+            "status": "draft"
+          },
+          {
+            "id": "family-business",
+            "title": "AI for Family Businesses",
+            "subtitle": "Modernizing Multi-Generation Companies",
+            "file": "learn/industry/family-business.md",
+            "readTime": 18,
+            "status": "draft"
+          },
+          {
+            "id": "industrial-services",
+            "title": "AI in Industrial Services",
+            "subtitle": "Field Operations and Scheduling",
+            "file": "learn/industry/industrial-services.md",
+            "readTime": 18,
+            "status": "draft"
+          }
+        ]
+      }
+    ]
+  },
+  "research": {
+    "title": "MASE Research",
+    "description": "Original AI research for business leaders",
+    "sections": [
+      {
+        "id": "benchmark",
+        "title": "MASE Benchmark",
+        "description": "Business-focused AI model testing",
+        "icon": "bar-chart-3",
+        "color": "#00f3ff",
+        "reports": [
+          {
+            "id": "february-2026",
+            "title": "February 2026 Results",
+            "file": "research/benchmark/february-2026-results.md",
+            "date": "2026-02-07",
+            "status": "published"
+          }
+        ]
+      },
+      {
+        "id": "state-of-ai",
+        "title": "State of AI",
+        "description": "Monthly enterprise AI analysis",
+        "icon": "file-text",
+        "color": "#a78bfa",
+        "reports": [
+          {
+            "id": "february-2026",
+            "title": "February 2026",
+            "file": "research/state-of-ai/february-2026.md",
+            "date": "2026-02-07",
+            "status": "published"
+          }
+        ]
+      }
+    ]
+  }
+}
